@@ -1,10 +1,10 @@
 """
 # 🐺 Grey Wolf Optimization (GWO) - Comprehensive Analysis 🐺
 
-## 📊 Algorithm Overview
+##  Algorithm Overview
 The Grey Wolf Optimizer (GWO) is a powerful metaheuristic algorithm inspired by the hierarchical leadership and hunting behavior of grey wolves. This implementation specifically targets the challenging Ackley function, a notorious benchmark function known for its deceptive landscape with numerous local minima and a single global minimum at (0,0).
 
-## 🔍 Key Components and Working Mechanism
+##  Key Components and Working Mechanism
 
 ### 1. Social Hierarchy
 - Alpha (α): The dominant leader making the primary decisions
@@ -23,7 +23,7 @@ The Grey Wolf Optimizer (GWO) is a powerful metaheuristic algorithm inspired by 
 - Exploitation: Fine-tuning in later iterations
 - Balance between exploration and exploitation through adaptive coefficients
 
-## 🎯 Performance Analysis
+##  Performance Analysis
 
 ### Convergence Characteristics
 - Rapid initial improvement (exploration phase)
@@ -36,7 +36,7 @@ The Grey Wolf Optimizer (GWO) is a powerful metaheuristic algorithm inspired by 
 - Robust against local minima traps
 - High precision in final solutions
 
-## 🔄 Comparison with Other Swarm Intelligence Algorithms
+##  Comparison with Other Swarm Intelligence Algorithms
 
 ### 1. GWO vs Particle Swarm Optimization (PSO)
 - GWO: Hierarchical leadership model
@@ -56,7 +56,7 @@ The Grey Wolf Optimizer (GWO) is a powerful metaheuristic algorithm inspired by 
 - GWO more suitable for continuous problems
 - ACO better for path-finding and routing problems
 
-## 💡 Key Advantages of GWO
+##  Key Advantages of GWO
 
 1. Simplicity
    - Few parameters to tune
@@ -73,7 +73,7 @@ The Grey Wolf Optimizer (GWO) is a powerful metaheuristic algorithm inspired by 
    - Works well in continuous spaces
    - Handles multimodal functions effectively
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### Convergence Speed
 - Initial rapid improvement (0-30 iterations)
@@ -85,7 +85,7 @@ The Grey Wolf Optimizer (GWO) is a powerful metaheuristic algorithm inspired by 
 - Fitness value: typically within 10^-6 of 0
 - Consistency across multiple runs
 
-## 🎓 Conclusion
+##  Conclusion
 
 The Grey Wolf Optimizer demonstrates exceptional performance in solving the Ackley function optimization problem. Its hierarchical structure and hunting-inspired search mechanism provide an effective balance between exploration and exploitation. The algorithm's simplicity, efficiency, and robustness make it a valuable tool in the optimization toolkit.
 
